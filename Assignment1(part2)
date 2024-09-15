@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uvie's Web Development Portfolio</title>
+</head>
+<body>
+    <!-- 
+    Name: Uvie Udjo
+    File: Assignment1(part2).html
+    Date: 15 September 2024
+    This file contains a basic structured webpage showcasing my web development projects and skills.
+    -->
+
+    <!-- Header with a title and navigation links -->
+    <header>
+        <h1>Uvie's Web Development Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area with an article and section for skills and projects -->
+    <main>
+        <!-- About me section -->
+        <article id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Uvie Udjo. I build websites using HTML, CSS, and JavaScript. This page shows my work and skills.</p>
+        </article>
+
+       <!-- Projects section with basic descriptions -->
+       <section id="projects">
+           <h2>My Projects</h2>
+           <ul>
+               <li>
+                   <strong>Personal Portfolio Website</strong>: A website to show my work.
+               </li>
+               <li>
+                   <strong>E-commerce Platform</strong>: A site for users to browse and buy products.
+               </li>
+               <li>
+                   <strong>Responsive Blog</strong>: A blog that works well on any device.
+               </li>
+           </ul>
+       </section>
+
+        <!-- Skills section with a list of technical skills -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer with contact details -->
+    <footer>
+        <p>&copy; 2024 Uvie Udjo. All rights reserved.</p>
+        <p>Contact me at: <a href="mailto:uvie.udjo@dcmail.ca">uvie.udjo@dcmail.ca</a></p>
+    </footer>
+</body>
+</html>
